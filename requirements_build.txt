@@ -1,0 +1,4 @@
+pyinstaller
+customtkinter
+darkdetect
+packaging
