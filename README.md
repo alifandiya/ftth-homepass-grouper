@@ -35,7 +35,4 @@ Aplikasi menyederhanakan *workflow* GIS Anda yang rumit ke dalam 3 langkah insta
 
 Karena aplikasi ini dikembangkan dengan prinsip **Zero-Dependency**, Anda tidak perlu melakukan instalasi pihak ketiga lewat `pip`.
 
-### Langkah-langkah:
-1. Clone atau unduh repositori ini:
-   ```bash
-   git clone [https://github.com/username-anda/nama-repositori.git](https://github.com/username-anda/nama-repositori.git)
+[![Latest Release](https://img.shields.io/github/v/release/alifandiya/ftth-homepass-grouper?logo=github&color=blue)](https://github.com/alifandiya/ftth-homepass-grouper/releases)
