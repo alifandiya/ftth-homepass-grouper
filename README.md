@@ -1,2 +1,41 @@
-# ftth-homepass-grouper
-Otomasi FTTH berbasis Python untuk mengelompokkan data Homepassed ke dalam poligon Boundary FAT secara presisi dengan Ray Casting &amp; BBox filter. Aplikasi desktop GUI modern bebas flicker, performa tinggi tanpa library eksternal (zero-dependency), mendukung multi-threading, serta fitur multibahasa (ID/EN) untuk GIS engineer.
+# 🚀 FTTH Homepassed Boundary Grouper (AK-47 Advanced Edition)
+
+![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![UI Style](https://img.shields.io/badge/UI-Modern__Flicker__Free-orange)
+![Dependency](https://img.shields.io/badge/Dependencies-Zero__External-brightgreen)
+
+**FTTH Homepassed Boundary Grouper** adalah alat otomatisasi geospasial berbasis desktop yang dirancang khusus untuk mempercepat pemrosesan data perencanaan jaringan serat optik (*Fiber to the Home*). Aplikasi ini secara cerdas mengelompokkan ribuan titik koordinat pelanggan (*Homepassed*) ke dalam area poligon distribusi optik (*Boundary FAT*) secara instan.
+
+[ GANTI BARIS INI DENGAN GAMBAR / GIF SCREENSHOT APLIKASI ANDA ]
+
+---
+
+## ✨ Fitur Unggulan
+
+* **⚡ Performa Tanpa Lag (Zero-Dependency):** Tidak membutuhkan instalasi pustaka berat seperti `geopandas` atau `shapely`. Cukup jalankan langsung menggunakan Python bawaan!
+* **🎯 Algoritma Cerdas Dua Tahap:** Menggunakan kombinasi saringan kotak pembatas (*Bounding Box Filter*) dan metode *Ray Casting* untuk memastikan perhitungan spasial berjalan kilat pada puluhan ribu titik.
+* **🕳️ Dukungan Inner Boundary (Hole):** Mampu mendeteksi lubang di dalam poligon cakupan sehingga status pengelompokan titik tetap akurat (`HP UNCOVER`).
+* **🔄 Asynchronous Multi-Threading:** Antarmuka tetap responsif, dinamis, dan bebas macet (*No Flicker / Not Responding*) saat komputasi berat sedang berlangsung.
+* **🌐 Antarmuka Multibahasa (Localization):** Mendukung perpindahan bahasa instan (Bahasa Indonesia & English) langsung dari menu utama.
+
+---
+
+## ⚙️ Cara Kerja Aplikasi
+
+Aplikasi menyederhanakan *workflow* GIS Anda yang rumit ke dalam 3 langkah instan:
+
+1. **Input:** Ekstraksi data KML/KMZ hasil survei lapangan secara otomatis.
+2. **Proses:** Filter spasial cepat berbasis koordinat matematika murni.
+3. **Output:** Menghasilkan berkas KMZ terstruktur baru yang rapi berdasarkan folder hierarki FDT/FAT tanpa merusak data asli.
+
+---
+
+## 🚀 Cara Menjalankan
+
+Karena aplikasi ini dikembangkan dengan prinsip **Zero-Dependency**, Anda tidak perlu melakukan instalasi pihak ketiga lewat `pip`.
+
+### Langkah-langkah:
+1. Clone atau unduh repositori ini:
+   ```bash
+   git clone [https://github.com/username-anda/nama-repositori.git](https://github.com/username-anda/nama-repositori.git)
