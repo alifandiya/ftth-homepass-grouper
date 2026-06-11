@@ -48,3 +48,7 @@ Bagi pengguna umum atau tim *planner* lapangan yang ingin langsung menggunakan a
 > 💡 **Tip:** Cukup unduh berkas `.exe` dari halaman rilis tersebut.
 
 ---
+
+## 👥 Credits & Dynamic Growth
+* **Original Blueprint / Initial Draft:** Jepri Septiono
+* **Core Spatial Logic & GUI Development:** [Alif Nasrullah]
