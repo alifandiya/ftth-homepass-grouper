@@ -36,3 +36,15 @@ Aplikasi menyederhanakan *workflow* GIS Anda yang rumit ke dalam 3 langkah insta
 Karena aplikasi ini dikembangkan dengan prinsip **Zero-Dependency**, Anda tidak perlu melakukan instalasi pihak ketiga lewat `pip`.
 
 [![Latest Release](https://img.shields.io/github/v/release/alifandiya/ftth-homepass-grouper?logo=github&color=blue)](https://github.com/alifandiya/ftth-homepass-grouper/releases)
+
+---
+
+## 📥 Download Berkas Siap Pakai
+
+Bagi pengguna umum atau tim *planner* lapangan yang ingin langsung menggunakan aplikasi ini, Anda dapat mengunduh versi rilis stabil terbaru secara instan melalui tautan di bawah ini:
+
+➡️ [**Download Latest Release (AK-47 V6 Modern UI)**](https://github.com/alifandiya/ftth-homepass-grouper/releases/latest)
+
+> 💡 **Tip:** Cukup unduh berkas `.exe` dari halaman rilis tersebut.
+
+---
