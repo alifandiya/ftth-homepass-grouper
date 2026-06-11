@@ -7,7 +7,7 @@
 
 **FTTH Homepassed Boundary Grouper** adalah alat otomatisasi geospasial berbasis desktop yang dirancang khusus untuk mempercepat pemrosesan data perencanaan jaringan serat optik (*Fiber to the Home*). Aplikasi ini secara cerdas mengelompokkan ribuan titik koordinat pelanggan (*Homepassed*) ke dalam area poligon distribusi optik (*Boundary FAT*) secara instan.
 
-[ GANTI BARIS INI DENGAN GAMBAR / GIF SCREENSHOT APLIKASI ANDA ]
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ad7268ad-63c7-4f4d-b17c-b1d1767fbff9" />
 
 ---
 
