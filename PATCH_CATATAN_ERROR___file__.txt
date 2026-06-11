@@ -1,0 +1,14 @@
+PATCH ERROR NameError: name '__file__' is not defined
+
+Penyebab:
+PyInstaller mengeksekusi file .spec dengan namespace sendiri, sehingga variable __file__ tidak selalu tersedia.
+
+Perbaikan:
+File HomePass_Group_Tool.spec sudah diganti dari:
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
+menjadi:
+BASE_DIR = os.path.abspath(globals().get("SPECPATH") or os.environ.get("HOMEPASS_BUILD_DIR") or os.getcwd())
+
+BUILD_EXE.bat juga sudah menambahkan:
+set "HOMEPASS_BUILD_DIR=%cd%"

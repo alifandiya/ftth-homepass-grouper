@@ -1,0 +1,1 @@
+py -3.14 -m PyInstaller --noconfirm --clean --onefile --windowed --name "HomePass Group Tool" --icon "HomePass_Group_Tool_icon_all_sizes.ico" --add-binary "AK47_HOME_PASS_GROUP_TOOL_14INCH_SCROLLFIX.cp314-win_amd64.pyd;." --add-data "HomePass_Group_Tool_icon_all_sizes.ico;." launcher.py
